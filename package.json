@@ -1,9 +1,9 @@
 {
-  "name": "redux-simple-starter",
+  "name": "ReactiveBlog",
   "version": "1.0.0",
-  "description": "Simple starter package for Redux with React and Babel support",
+  "description": "Simple React and Redux app to learn React Router and React Forms",
   "main": "index.js",
-  "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
+  "repository": "https://github.com/claytoncasey01/ReactiveBlog",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
@@ -20,11 +20,13 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "babel-preset-stage-1": "^6.1.18",
     "lodash": "^3.10.1",
     "react": "16.3.2",
     "react-dom": "16.3.2",
     "react-redux": "5.0.7",
+    "react-router-dom": "^4.2.2",
     "redux": "4.0.0"
   }
 }
